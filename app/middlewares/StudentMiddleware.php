@@ -15,7 +15,7 @@ class StudentMiddleware
         ) {
             return $next();
         }
-
+ 
         // Show styled Access Denied page
         $view_path = __DIR__ . '/../views/access_denied.php';
 
@@ -27,3 +27,4 @@ class StudentMiddleware
         die('Access Denied: Student Profile is restricted.');
     }
 }
+

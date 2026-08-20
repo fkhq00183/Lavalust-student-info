@@ -206,10 +206,10 @@ $github = isset($github) ? $github : '';
     <div class="header-card">
         <div class="avatar">ZM</div>
 
-        <h1>Zean's Digital Student Profile</h1>
+        <h1>Judel's Digital Student Profile</h1>
 
         <div class="subtitle">
-            BS Information Technology Student
+            Bachelor Of Science in Information Technology Student
         </div>
     </div>
 
@@ -284,7 +284,7 @@ $github = isset($github) ? $github : '';
         <div class="social-links">
 
             <a href="<?= $facebook ?>" target="_blank">
-                Facebook
+                Instagram
             </a>
 
             <a href="<?= $github ?>" target="_blank">
@@ -295,7 +295,7 @@ $github = isset($github) ? $github : '';
     </div>
 
     <a class="back-button" href="<?= site_url('student'); ?>">
-        Back to Student Hub
+        Back to Student Info
     </a>
 
 </div>

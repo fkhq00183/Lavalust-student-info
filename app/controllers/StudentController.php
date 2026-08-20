@@ -24,19 +24,19 @@ class StudentController extends Controller
         return $middleware->handle(function () {
 
             $student = [
-                'student_id' => 'MCC2024-00200',
-                'name' => 'Zean Rollin Mantala',
-                'course' => 'BS Information Technology',
+                'student_id' => 'MCC2024-00183',
+                'name' => 'John Judel Manongsong',
+                'course' => 'Bachelor of Science in Information Technology',
                 'year' => '3rd Year',
-                'section' => '3F4',
-                'email' => 'zeanmantala18@gmail.com',
-                'contact' => '09565593762',
-                'address' => 'Tibag, Calapan City',
-                'skills' => 'Programming',
-                'hobbies' => 'Playing Guitar, Drums, Drawing, Swimming, Gaming',
-                'description' => 'A BSIT student interested in programming, technology, and learning new skills.',
-                'facebook' => 'https://www.facebook.com/share/1Dht8RnjNC/',
-                'github' => 'https://github.com/ZeanGeeks'
+                'section' => 'F4',
+                'email' => 'johnmanongsong05@gmail.com',
+                'contact' => '09354122452',
+                'address' => 'Puerto Galera',
+                'skills' => 'Digital&NonDigital Arts, UI designing',
+                'hobbies' => 'Drawing, , Swimming, Gaming',
+                'description' => 'A BSIT student who loves to learn anything related to science, technology and arts',
+                'Instagram' => 'https://www.instagram.com/qu1n_k1ng5?igsh=NWc2emR1M2t1Ym9w',
+                'github' => 'https://github.com/fkhq00183'
             ];
 
             return $this->call->view('student_profile', $student);

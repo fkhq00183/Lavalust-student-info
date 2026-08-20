@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zean's Student Space</title>
+    <title>Student Info by John Judel</title>
 
     <style>
         * {
@@ -123,14 +123,14 @@
 <div class="hero">
 
     <div class="avatar">
-        ZM
+        JJM
     </div>
 
-    <h1>Welcome to Zean's Student Space</h1>
+    <h1>Welcome to Student Info</h1>
 
     <p class="subtitle">
         A personal student information page built with LavaLust.
-        Get to know me, my studies, skills, hobbies, and interests.
+        This includes my studies, skills, hobbies, interest and social media.
     </p>
 
     <a class="button" href="<?= site_url('student/profile'); ?>">
@@ -140,7 +140,7 @@
 </div>
 
 <div class="footer">
-    Zean's Student Space • Built with LavaLust
+    Student Info using Lavalust | By John Judel
 </div>
 
 </body>
