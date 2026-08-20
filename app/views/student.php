@@ -511,7 +511,7 @@
 
     <p class="subtitle">
         A personal student information page built with LavaLust.
-        This includes my studies, skills, hobbies, interest and social media.
+        This includes my studies, skills, hobbies, interest and social media.<br>
         [ps. Design is one and only made by AI]
     </p>
 
