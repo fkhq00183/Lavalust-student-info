@@ -11,7 +11,7 @@ class StudentMiddleware
 
         if (
             isset($_SESSION['student_access']) &&
-            $_SESSION['student_access'] === true
+            $_SESSION['student_access'] === false
         ) {
             return $next();
         }
